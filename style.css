@@ -1,13 +1,15 @@
 body{
-    background: lightblue;
+    background:azure;
 }
 .head{
-    color: greenyellow;
+    color: green;
+    justify-content: ;
 }
 nav{
     display: flex;
     background: grey;
     font-family: sans-serif;
+    justify-content: space-between;
 }
 nav li{
     list-style: none;
@@ -31,10 +33,18 @@ footer{
     display: flex;
     background: grey;
     font-family: sans-serif;
-    color: greenyellow;
+    color: goldenrod;
     align-items: center;
 }
 img{
     height: 200px;
     
+}
+form{
+ background:url(image.webp)  
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: auto 10%;
 }
